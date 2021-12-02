@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+import { connect, useSelector } from "react-redux";
 import { increment } from "../redux/counterTypes";
 
 const Counter = ({ Counter, increment }: any) => {
